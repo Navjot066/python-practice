@@ -192,8 +192,184 @@ b=a
 b.append(20)
 print(a)
 print(a is b)
-
-a = 10
-b = 10
-
+# Q4
+a=[5,10]
+b=a
+c=[5,10]
+d=c
 print(a is b)
+print(a==b)
+print(c is d)
+print(a is c)
+
+# Task 1
+a=[1,2,3]
+b=a
+c=[1,2,3]
+a.append(4)
+print(a)
+print(b)
+print(a is b)
+print(a==c)
+
+# Task 2
+x=[10,20]
+y=x.copy()
+z=x
+x.append(30)
+print(x)
+print(y)
+print(z)
+print(x is y)
+print(x is z)
+
+# Mini Task
+nums=[10,20]
+nums.append(30)
+print(nums)
+
+a=[5,10]
+b=a.copy()
+a.append(15)
+print(a)
+print(b)
+
+nums=[1,2,3,2]
+nums.remove(2)
+print(nums)
+
+# TASk
+#1
+nums=[10,15,20,25]
+num=15
+new_nums=nums.copy()
+if num in nums and not(num%2==0) and num%5==0:
+    new_nums.append(num)
+    print(new_nums)
+# Q1
+nums=[1,2,3]
+new_nums=nums.copy()
+new_nums.append(4)
+print(new_nums)
+print(nums)
+# Q2
+nums=[10,20,30]
+nums.remove(20)
+print(nums)
+# Q3
+nums=[15,10]
+new_nums=nums.copy()
+nums.append(15)
+print(nums)
+print(new_nums)
+# Q4 
+nums=[2,4,6]
+num=3
+if num not in nums and num%2!=0:
+    new_nums=nums.copy()
+    new_nums.append(num)
+    print("new_nums:",new_nums)
+else:
+    print("nums:",nums)
+
+# TASK 
+# Q1
+num=8
+if num%2==0:
+    print("even")
+# Q2
+num=9
+if num%2!=0 and num%3==0:
+    print("valid")
+else:
+    print("invalid")
+# Q3 
+nums=[2,4,6]
+num=5
+if num not in nums and num%2!=0:
+    nums.append(num)
+    print(nums)
+# Q4
+nums=[10,20]
+new_nums=nums.copy()
+nums.append(30)
+print("nums:",nums)
+print("new_nums",new_nums)
+# Q5
+nums=[5,10,15]
+num=10
+if num in nums and num%2==0:
+    new_nums=nums.copy()
+    new_nums.append(num)
+    print("new_nums:",new_nums)
+else:
+    print("nums:",nums)
+# TASK 
+# Q1 
+num=11
+if num%2!=0 :
+    print("odd")
+else:
+    print("even")
+# Q2
+num=12
+if num%3==0 and num%2==0:
+    print("yes")
+else:
+    print("no")
+# Q3
+nums=[1,3,5]
+num=2
+if num not in nums and num%2==0:
+    nums.append(num)
+    print(nums)
+# Q4
+nums=[17,14]
+new_nums=nums
+nums.append(21)
+print(new_nums)
+print(nums)
+# Q5
+nums=[2,4,6]
+num=4
+if num in nums and num%2==0:
+    new_nums=nums.copy()
+    new_nums.append(num)
+    print(new_nums)
+else:
+    print(nums)
+#TASK 
+# Q!
+num=14
+if num%2==0:
+    print("even")
+else:
+    print("odd")
+# Q2
+num=7
+if num%2!=0:
+    print("valid")
+else:
+    print("invalid")
+# Q3
+nums=[2,4,6]
+num=3
+if num not in nums and num%2!=0:
+    nums.append(num)
+    print(nums)
+# Q4
+nums=[10,20]
+new_nums=nums.copy()
+nums.append(30)
+new_nums.append(40)
+print(new_nums)
+print(nums)
+# Q5
+nums=[5,10,15]
+num=10
+if num in nums and num%2==0 and num%5==0:
+    new_nums=nums.copy()
+    new_nums.append(num)
+    print(new_nums)
+else:
+    print(nums)
