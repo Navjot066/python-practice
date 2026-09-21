@@ -1,3 +1,16 @@
+a=int(input("enter the value:"))
+b=int(input("enter value:"))
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+exp=a**b
+print(add)
+print(sub)
+print(mul)
+print(div)
+print(exp)
+
 # CONDITION'S STATMENTS 
 
 # loop + conditions
@@ -534,3 +547,5 @@ for row in matrix:
           if value%2!=0:
                new_data.append(value*10)
 print(new_data)
+
+

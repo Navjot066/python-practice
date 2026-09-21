@@ -373,3 +373,37 @@ if num in nums and num%2==0 and num%5==0:
     print(new_nums)
 else:
     print(nums)
+
+# PYTHON
+print("**PYTHON**")
+marks=40
+if marks>=33:
+    print("pass")
+else:
+    print("fail")
+
+hyperparameteers={
+    "learing_rate": 0.001,
+    "batch_size": 32,
+    "optimize" :"adam",
+    "early_stopping" : True
+}
+print("LR",hyperparameteers["learing_rate"])
+print("bach_size:",hyperparameteers["batch_size"])
+print("optimize:",hyperparameteers["optimize"])
+
+hyperparameteers["learing_rate"]=0.005
+print(hyperparameteers)
+
+#Explicit cast and set magic
+roles=['admin','user','user','editor','admin','user','viewer']
+#1. print total count
+print("total user account:",len(roles))
+
+#2.unique roles list/set
+unique_roles=set(roles)
+print("unique roles in the system",unique_roles)
+
+# count unique roles 
+print("count of unique rols:",len(unique_roles))
+
